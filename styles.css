@@ -1,0 +1,171 @@
+/* Beginning of navigation styling */
+
+.navbar {
+  background: #ffffff;
+  padding: 4px;
+  font-size: 16px;
+	border-width: 0;
+}
+
+
+.navbar-header.page-scroll a {
+  color: #479bd2;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+.navbar-header.page-scroll a:hover {
+  color: #dee3ef;
+}
+
+.nav.navbar-nav.navbar-right a {
+  color: #479bd2;
+  letter-spacing: 1px;
+}
+
+.nav.navbar-nav.navbar-right a:hover {
+  color: #dee3ef;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #479bd2;
+}
+
+.navbar-default .navbar-toggle.collapse .navbar-collapse.collapse {
+  background-color: #479bd2;
+}
+
+/* End of Navigation Style */
+
+/*Welcome image*/
+
+.welcome {
+  padding: 200px;
+  background: url("./images/53.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+
+.upAndDown {
+  color: #479bd2;
+  transition: color 0.3s linear;
+}
+
+.upAndDown:hover {
+  color: #dee3ef;
+}
+
+.arrow-down a {
+  color: #479bd2;
+}
+.arrow-down a:hover {
+  transition: color 0.3s linear;
+  color: #dee3ef;
+}
+
+/*End of Welcome image*/
+
+/*About Me*/
+aside {
+  background-color: #479bd2;
+  padding: 50px 0 0px 0;
+  color: #ffffff;
+}
+
+.aboutme{
+  text-align: right;
+}
+
+.smaller-image {
+  width: 60%;
+  text-align: left;
+  margin: 40px auto 0 auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: auto;
+}
+
+row {
+padding: 50px 200px;
+}
+
+/*End of About Me*/
+
+/*Portfolio*/
+
+.portfolio {
+  padding: 10%;
+  background: url("https://s5.postimg.cc/8d7819gvr/image.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+
+.upAndDown {
+  color: #479bd2;
+  transition: color 0.3s linear;
+}
+
+.upAndDown:hover {
+  color: #dee3ef;
+}
+
+.col{
+  color: #dee3ef
+}
+
+.icon {
+  width: 50px;
+  height: auto;
+  margin: 25px 25px;
+}
+
+a {
+  color: black;
+}
+
+.arrow a {
+  color: #dee3ef;
+}
+.arrow a:hover {
+  transition: color 0.3s linear;
+  color: #dee3ef;
+}
+
+/*End of Portfolio*/
+
+/*FOOTER*/
+
+footer {
+  background-color: #ffffff;
+  color: #479bd2;
+  margin-bottom: 30px;
+}
+footer .social {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #dee3ef;
+  transition: color 0.3s linear;
+  margin-right: 20px;
+}
+
+footer a:hover {
+  color: #479bd2;
+}
+
+footer ul, footer small {
+  display: inline;
+}
+
+footer small {
+  margin: 5px 20px;
+  font-size: 0.7em;
+}
+
+.list-inline>li {
+  margin-top: 10px;
+}
